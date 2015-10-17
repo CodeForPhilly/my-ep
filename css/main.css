@@ -50,6 +50,7 @@
 	margin-right: auto;
 	background-color: steelblue;
 	border-radius: 5px;
+	flex-direction: column;
 }
 .q-pro-container .profile-container .profile {
 	width: 50%;
