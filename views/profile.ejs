@@ -9,31 +9,67 @@
     </style>
 </head>
 <body>
-<div class="container">
+    <div class="container">
 
-    <div class="page-header text-center">
-        <h1><span class="fa fa-anchor"></span> Profile Page</h1>
-        <a href="/logout" class="btn btn-default btn-sm">Logout</a>
-    </div>
-
-    <div class="row">
-
-        <!-- LOCAL INFORMATION -->
-        <div class="col-sm-6">
-            <div class="well">
-                <h3><span class="fa fa-user"></span> Local</h3>
-
-                    <p>
-                        <strong>id</strong>: <%= user._id %><br>
-                        <strong>email</strong>: <%= user.local.email %><br>
-                        <strong>password</strong>: <%= user.local.password %>
-                    </p>
-
-            </div>
+        <div class="page-header text-center">
+            <h1><span class="fa fa-anchor"></span> Profile Page</h1>
+            <a href="/logout" class="btn btn-default btn-sm">Logout</a>
         </div>
 
-    </div>
+        <div class="row">
 
-</div>
+            <!-- LOCAL INFORMATION -->
+            <div class="col-sm-6">
+                <div class="well">
+                    <h3><span class="fa fa-user"></span> Local</h3>
+
+                        <p>
+                            <strong>id</strong>: <%= user._id %><br>
+                            <strong>email</strong>: <%= user.local.email %><br>
+                            <strong>password</strong>: <%= user.local.password %>
+                        </p>
+
+                </div>
+            </div>
+
+        </div>
+        <header class="header-container">
+            <h2>My EP</h2>
+            <p>Take Charge of Your Education</p>
+        </header>
+
+
+        <section class="nav-section">
+            <div class="rights-container">
+                <h3>Know Your Rights</h3> 
+            </div>
+            <div class="resource-container">
+                <h3>Find Resources</h3>
+            </div>
+            <div class="connect-container">
+                <h3>Connect</h3>
+            </div>
+        </section>
+
+        <section class="q-pro-container">
+
+            <div class="question-container">
+                <div class="questions">
+                    <h3>Questions</h3>
+                </div>
+            </div>
+
+            <div class="profile-container"> 
+                <div class="profile">
+                 <h3>Profile</h3>
+                </div>
+            </div>
+
+        </section>
+
+
+        <footer class="footer"> 
+        </footer>
+    </div>
 </body>
 </html>
