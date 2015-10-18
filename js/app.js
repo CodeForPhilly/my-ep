@@ -48,6 +48,10 @@ $(document).ready(function() {
 		}
 	});
 
+	$(".listen-english").on("click", function() {
+		$("#englishintro").play();
+	});
+
 	function scrollToIt(className) {
 		$('html, body').animate({
 	    	scrollTop: ($(className).offset().top)
