@@ -1,0 +1,136 @@
+/* General Declarations */
+a:link {
+	text-decoration: none;
+}
+
+/* Navigation Bar */
+.nav-bar {
+	/* Layout */
+	width: 100%;
+	height: 5rem;
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	/* Color and Design */
+	background-color: white;
+}
+.nav-bar > div {
+	/* Layout */
+	width: 20%;
+/*	min-width: 70px; -- note: width for phone screens */
+	margin-left: auto;
+	margin-right: auto;
+	background-color: White;
+	padding-top: 1.5rem;
+	/* Font */
+	text-align: center;
+}
+.nav-bar .home-nav {
+	background-color: #BBCCEE;
+}
+.nav-bar .team-nav {
+	background-color: #44AA99;
+}
+.nav-bar .meeting-nav {
+	background-color: #999933;
+}
+.nav-bar .questions-nav {
+	background-color: #DDCC77;
+}
+.nav-bar .guide-nav {
+	background-color: #CC6677;
+}
+.nav-bar > div:hover {
+	cursor: pointer;
+}
+.nav-bar > a:link {
+
+}
+
+/* Section Container */
+.section-container {
+	margin-top: 5rem;
+}
+
+/* Home Section */
+.home-jumbo {
+	height: 50rem;
+	background-color: steelblue;
+}
+.home-jumbo h2 {
+	margin-top: 10rem;
+	margin-left: 15%;
+	font-size: 3rem;
+	color: #BBCCEE;
+}
+.home-jumbo p {
+	width: 60%;
+	margin-left: 19%;
+	margin-right: auto;
+	text-align: justify;
+	color: mintcream;
+}
+.home-jumbo .button-container {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 60%;
+	margin-right: 20%;
+}
+.home-jumbo button {
+	width: 6rem;
+	height: 4rem;
+	border: none;
+	border-radius: 8px;
+	color: steelblue;
+	background-color: #BBCCEE;	
+}
+
+/* Team Section */
+#parent-jumbo {
+	height: 50rem;
+	background-color: #44AA99;
+}
+#teacher-jumbo {
+	height: 50rem;
+	background-color: #117733;
+}
+#admin-jumbo {
+	height: 50rem;
+	background-color: #332288;
+}
+#pubrep-jumbo {
+	height: 50rem;
+	background-color: #882255;
+}
+#interpret-jumbo {
+	height: 50rem;
+	background-color: #AA4499;
+}
+#other-jumbo {
+	height: 50rem;
+	background-color: #eeddbb;
+}
+#student-jumbo {
+	height: 50rem;
+	background-color: #44AA99;
+}
+
+/* Meeting Section */
+.meetings-jumbo {
+	height: 50rem;
+	background-color: #999933;
+}
+
+/* Contact/Questions Section */
+.contact-jumbo {
+	height: 50rem;
+	background-color: #DDCC77;
+}
+
+/* Footer */
+footer {
+	height: 5rem;
+	background-color: black;
+}
