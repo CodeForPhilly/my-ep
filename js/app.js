@@ -49,7 +49,7 @@ $(document).ready(function() {
 	});
 
 	$(".listen-english").on("click", function() {
-		$("#englishintro").play();
+		$("#englishintro")[0].play();
 	});
 
 	function scrollToIt(className) {
