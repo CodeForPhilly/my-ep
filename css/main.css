@@ -14,7 +14,7 @@ a:link {
 	z-index: 9999;
 	top: 0;
 	width: 100%;
-	height: 5rem;
+	height: 8rem;
 	display: flex;
 	justify-content: center;
 	/* Color and Design */
@@ -54,40 +54,45 @@ a:link {
 .nav-bar > div:hover {
 	cursor: pointer;
 }
-.nav-bar > a:link {
-
-}
 
 /* Section Container */
 .section-container {
-	margin-top: 5rem;
+	margin-top: 8rem;
 }
-
-/* Home Section */
-.home-jumbo {
+.section-container div {
 	box-sizing: border-box;
 	height: 50rem;
-	background-color: steelblue;
 	padding-top: 10rem;
 }
-.home-jumbo h2 {
+.section-container h2 {
 	margin-right: auto;
 	margin-left: 15%;
 	font-size: 3rem;
-	color: #BBCCEE;
 }
-.home-jumbo p {
+.section-container p {
 	width: 60%;
 	margin-right: auto;
 	margin-left: 19%;
 	text-align: justify;
+}
+
+/* Home Section */
+.home-jumbo {
+	background-color: steelblue;
+}
+.home-jumbo h2 {
+	color: #BBCCEE;
+}
+.home-jumbo p {
 	color: mintcream;
+	margin-bottom: 2rem;
 }
 .home-jumbo .button-container {
 	display: flex;
 	justify-content: space-between;
 	margin-right: 20%;
 	margin-left: 60%;
+	padding-top: 0;
 }
 .home-jumbo button {
 	width: 6rem;
@@ -100,78 +105,82 @@ a:link {
 
 /* Team Section */
 #student-jumbo {
-	box-sizing: border-box;
-	height: 50rem;
 	color: #BBCCEE;
 	background-color: #44AA99;
 }
 #student-jumbo h2 {
-	margin-right: auto;
-	margin-left: 15%;
-	font-size: 5rem;
-}
-#student-jumbo p {
-	width: 60%;
-	margin-right: auto;
-	margin-left: 20%;
-	text-align: justify;
-}
-#parent-jumbo {
-	box-sizing: border-box;
-	height: 50rem;
-	background-color: #eeddbb;
-}
-#parent-jumbo h2 {
-	margin-right: 15%;
-	margin-left: auto;
 	font-size: 4rem;
 }
-#parent-jumbo p {
-	width: 60%;
-	margin-right: 20%;
-	margin-left: auto;
+#parent-jumbo {
+	color: #117733;
+	background-color: #eeddbb;
 }
-
 #teacher-jumbo {
-	box-sizing: border-box;
-	height: 50rem;
+	color: #332288;
 	background-color: #117733;
 }
 #admin-jumbo {
-	box-sizing: border-box;
-	height: 50rem;
+	color: #AA4499;
 	background-color: #332288;
 }
-#pubrep-jumbo {
-	box-sizing: border-box;
-	height: 50rem;
-	background-color: #882255;
-}
 #interpret-jumbo {
-	box-sizing: border-box;
-	height: 50rem;
+	color: #44AA99;
 	background-color: #AA4499;
 }
 #other-jumbo {
-	box-sizing: border-box;
-	height: 50rem;
+	color: #BBCCEE;
 	background-color: #44AA99;
 }
 
 /* Meeting Section */
-.meetings-jumbo {
+.section-container .meetings-jumbo {
+	/* Layout */
+	margin-top: 0;
+	padding-top: 3rem;
 	box-sizing: border-box;
 	height: 50rem;
+	/* Font */
 	background-color: #999933;
+	color: #DDCC77;
 }
-
+.meetings-jumbo h2 {
+	margin-right: auto;
+	margin-left: 15%;
+	font-size: 3rem;
+}
+.meetings-jumbo li {
+	list-style: none;
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 1rem;
+}
 /* Contact/Questions Section */
 .contact-jumbo {
 	box-sizing: border-box;
 	height: 50rem;
 	background-color: #DDCC77;
 }
-
+.contact-jumbo textarea {
+	height: 10rem;
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+.contact-jumbo input {
+	margin-right: 10rem;
+	margin-left: 10%;
+	height: 2rem;
+	width: 40%;
+}
+.contact-jumbo button {
+	margin-right: auto;
+	height: 2rem;
+	width: 12rem;
+	border: none;
+	border-radius: 1rem;
+	background-color: #999933;
+}
 /* Footer */
 footer {
 	box-sizing: border-box;
