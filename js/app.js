@@ -49,6 +49,7 @@ $(document).ready(function() {
 	});
 
 	$(".listen-english").on("click", function() {
+		debugger;
 		$("#englishintro")[0].play();
 	});
 
