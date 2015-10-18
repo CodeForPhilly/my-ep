@@ -48,9 +48,8 @@ $(document).ready(function() {
 		}
 	});
 
-	$(".listen-english").on("click", function() {
-		debugger;
-		$("#englishintro")[0].play();
+	$("button.listen-english").on("click", function() {
+		$("audio#englishintro")[0].play();
 	});
 
 	function scrollToIt(className) {
